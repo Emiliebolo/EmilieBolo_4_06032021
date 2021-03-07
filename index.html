@@ -29,7 +29,7 @@
 	<meta name="twitter:image" content="https://emiliebolo.github.io/EmilieBolo_4_06032021/img/miniature-card.jpg">
 	<meta name="twitter:image:alt" content="Image représentant La chouette agence">
 	
-	
+	<!--Google Analytic-->
 	<script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -51,11 +51,6 @@
 	<script src="./js/gmaps.js"></script>
 
     <title>La chouette agence. Entreprise Web-design à Lyon.</title>/<!--Ajout du titre de la page -->
-
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
     
 </head>
 <body>
@@ -67,15 +62,18 @@
 	<div class="container bloc-sm">
 
 		<nav class="navbar row">
-			<div class="navbar-header">
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+			<div class="navbar-header"><!--suppression de la div class="keywords"-->
+				<a class="navbar-brand" href="index.html" title="Page d'accueil">
+				 <img src="img/la-chouette-agence.png" alt="image de la chouette agence basée sur Lyon.">
+			    </a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span><!--organisation des balises span-->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" aria-expanded="false">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="#bloc-2-services">Solutions</a><!--changement des titres nav: Renvoie sur la partie Solutions-->
@@ -84,7 +82,7 @@
 						<a href="#bloc-4-portfolio">Portfolio</a><!--ajout d'un renvoie vers le bloc portfolio-->
 					</li>
 					<li>
-						<a href="page2.html">Nous contater &gt;</a>
+						<a href="page2.html" title="page nous contacter">Nous contater</a>
 					</li>
 				</ul>
 			</div>
@@ -98,9 +96,9 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La chouette agence, agence web paris, création logo paris" />
+				<img src="img/logo.png" class="center-block image-resize-mode" alt="La chouette agence" />
 				<h1 class="text-center hero-bloc-text tc-white ">
-					La chouette agence.Entreprise Web-design Située à Lyon.
+					Une envie de renouveller ou créer votre <br>site web La chouette agence est là pour vous.
 				</h1>
 				<div class="text-center">
 					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
