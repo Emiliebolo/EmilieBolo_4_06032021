@@ -104,8 +104,6 @@ sub {
 
 img {
     border: 0;
-    width: 150px;
-    height: auto;
 }
 
 svg:not(:root) {
@@ -1430,9 +1428,7 @@ figure {
 
 img {
     vertical-align: middle;
-    height: 70px;
-    width: auto;
-
+    
 }
 
 .carousel-inner>.item>a>img,
@@ -1443,6 +1439,8 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .img-rounded {
@@ -7800,7 +7798,8 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    width: 100px;
 }
 
 .pull-right {

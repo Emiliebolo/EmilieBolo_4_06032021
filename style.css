@@ -302,9 +302,7 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
+    width: 50px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -559,8 +557,6 @@ a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
-    height: 270px;
-    width:auto;
 }
 
 #lightbox-modal {
@@ -654,7 +650,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: hsla(200,0%,0%,.7)!important;
 }
 
 .container {
