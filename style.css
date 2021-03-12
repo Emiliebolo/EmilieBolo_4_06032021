@@ -302,7 +302,7 @@ a:hover {
 }
 
 .navbar-brand img {
-    width: 50px;
+    width: 150px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -774,7 +774,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#F3F16CC2 !important;
 }
 
 .btn-atomic-tangerine {
