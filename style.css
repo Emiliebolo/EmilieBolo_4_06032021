@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(23, 12, 1, 0.7);
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(203, 147, 106, 0.6);
 }
 
 .d-bloc .a-btn:hover,
@@ -474,7 +474,8 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 35px!important;
+    margin-left: -100px;
 }
 
 .icon-lg {
@@ -650,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: hsla(200,0%,0%,.7)!important;
+    color:  hsl(40, 5.5%, 10.8%) !important;
 }
 
 .container {
@@ -676,7 +677,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
+    font-style: italic;
 }
 
 .tight-width-whitespace {
@@ -691,20 +693,21 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 14px 33px 14px 33px;
     font-size: 16px;
     font-weight: 700;
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
@@ -717,7 +720,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -735,7 +738,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color:#241515 !important;
 }
 
 .portfolio-thumb {
@@ -770,21 +773,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #9C3F12;
 }
 
 .tc-white {
-    color:#F3F16CC2 !important;
+    color:#EEA75A !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #9C3F12;
+    color: #F3CE9F !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956 !important;
+    color: #000 !important;
 }
 
 .ltc-white {

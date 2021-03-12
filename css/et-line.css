@@ -167,7 +167,8 @@
 }
 
 .et-icon-browser:before {
-    content: "\e00c"
+    content: "\e00c";
+    color: brown;
 }
 
 .et-icon-calendar:before {
@@ -175,7 +176,8 @@
 }
 
 .et-icon-presentation:before {
-    content: "\e00e"
+    content: "\e00e";
+    color: brown;
 }
 
 .et-icon-picture:before {
@@ -219,39 +221,42 @@
 }
 
 .et-icon-grid:before {
-    content: "\e019"
+    content: "\e019";
 }
 
 .et-icon-expand:before {
-    content: "\e01a"
+    content: "\e01a";
+    color: brown;
 }
 
 .et-icon-focus:before {
-    content: "\e01b"
+    content: "\e01b";
+    color: brown;
 }
 
 .et-icon-edit:before {
-    content: "\e01c"
+    content: "\e01c";
+    color: brown;
 }
 
 .et-icon-adjustments:before {
-    content: "\e01d"
+    content: "\e01d";
 }
 
 .et-icon-ribbon:before {
-    content: "\e01e"
+    content: "\e01e";
 }
 
 .et-icon-hourglass:before {
-    content: "\e01f"
+    content: "\e01f";
 }
 
 .et-icon-lock:before {
-    content: "\e020"
+    content: "\e020";
 }
 
 .et-icon-megaphone:before {
-    content: "\e021"
+    content: "\e021";
 }
 
 .et-icon-shield:before {
