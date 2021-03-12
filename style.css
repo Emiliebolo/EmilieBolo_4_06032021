@@ -638,12 +638,17 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: hsl(31.3, 73.8%, 25.5%) !important;
     background: none;
+}
+.social-title{
+    color:blanchedalmond;
+}
+.title{
+    color:black;
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -654,7 +659,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color:  hsl(40, 5.5%, 10.8%) !important;
+    color:  hsl(31.3, 73.8%, 25.5%) !important;
 }
 
 .container {
@@ -718,7 +723,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #eea75a !important
 }
 
 .med-width-whitespace {
@@ -741,7 +746,7 @@ h4 {
 }
 
 .white {
-    color:#241515 !important;
+    color:#e4d5ad !important
 }
 
 .portfolio-thumb {
