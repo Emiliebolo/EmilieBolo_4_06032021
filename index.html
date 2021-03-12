@@ -6,12 +6,13 @@
     <meta name="description" content="La chouette agence, entreprise de Web design à Lyon. conseille et aide les entreprises quel que soit leur domaine à réaliser leur projet.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<!--changement de favicon png=>ico-->
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
 
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-B38RVPTTVN"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 	<!--L'indexation dans les moteurs de recherche-->
 	<meta name="robots" content="index, follow">
 
@@ -41,28 +42,24 @@
      gtag('config', 'G-B38RVPTTVN');
     </script>
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	
-    
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+	<script src="./js/jquery-2.1.0.min.js" defer></script>
+	<script src="./js/bootstrap.min.js" defer></script>
+	<script src="./js/blocs.min.js" defer></script>
+	<script src="./js/jquery.touchSwipe.min.js" defer></script>
+	<script src="./js/gmaps.min.js" defer></script> 
 
     <title>La chouette agence. Entreprise Web-design à Lyon.</title>/<!--Ajout du titre de la page -->
     
 </head>
+
 <body>
 <!-- Principal conteneur -->
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
+<hearder>
+   <div class="bloc bgc-white l-bloc " id="bloc-0">
+	  <div class="container bloc-sm">
 
 		<nav class="navbar row">
 			<div class="navbar-header"><!--suppression de la div class="keywords"-->
@@ -90,8 +87,8 @@
 				</ul>
 			</div>
 		</nav>
-	</div>
-</div>
+	  </div>
+    </div>
 <!-- bloc-0 END -->
 
 <!-- bloc-1-presentation -->
@@ -99,7 +96,7 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" alt="La chouette agence" />
+				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="logo la chouette agence" />
 				<h1 class="text-center hero-bloc-text tc-white ">
 					Une envie de renouveller ou créer votre <br>site web La chouette agence est là pour vous.
 				</h1>
@@ -107,6 +104,7 @@
 		</div>
 	</div>
 </div>
+</header>
 <!-- bloc-1-presentation END -->
 
 <!-- bloc-2-services -->
@@ -154,13 +152,12 @@
 		</div>
 		<div class="row voffset-lg voffset">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-				<h2>
-					<em>"La chouette agence est une excellente agence web !
+				<blockquote class="citation">
+					"La chouette agence est une excellente agence web !
 					Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à
 					notre site.
 					Cela nous a aidé à doubler nos ventes en ligne à Lyon"
-				    </em>
-			   </h2>
+				</blockquote>
 			   <p>Maxime Guibard, PDG de à nos Fourchettes</p>
 			</div>
 		</div>
@@ -193,7 +190,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h2>Nous travaillons avec beaucou de client <br> voici quelques-une de nos réalisations</h2>
+				<h2>Nous travaillons avec beaucoup de client <br> voici quelques-une de nos réalisations</h2>
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
