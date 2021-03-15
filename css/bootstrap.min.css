@@ -1437,8 +1437,8 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    width: 270px;
-    height: 270px;
+    width: 210px;
+    height: 210px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -1831,6 +1831,10 @@ dt {
 
 dd {
     margin-left: 0
+}
+.img-responsive{
+    width: 200px;
+    height: 200px;
 }
 
 @media (min-width:768px) {
