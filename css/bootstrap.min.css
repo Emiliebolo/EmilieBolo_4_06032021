@@ -1438,7 +1438,7 @@ img {
 .thumbnail>img {
     display: block;
     width: 270px;
-    height: auto;
+    height: 270px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -7800,7 +7800,7 @@ button.close {
     margin-right: auto;
     margin-left: auto;
     width: 100px;
-    height: auto;
+    height: 100px;
 }
 
 .pull-right {
