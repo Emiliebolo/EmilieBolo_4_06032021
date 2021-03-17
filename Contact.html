@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+
+	<title>Formulaire de contact - La Chouette Agence</title>
+
+	<meta name="robots" content="index, follow">
+    <meta name="description" content="Pour contacter notre équipe de web designers basés à Lyon et vous aider à créer ou optimiser le site web de votre entreprise, remplissez ce formulaire !">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	
+    
+	<script src="./js/jquery-2.1.0.min.js" defer></script>
+	<script src="./js/bootstrap.min.js"defer></script>
+	<script src="./js/blocs.min.js"defer></script>
+	<script src="./js/jqBootstrapValidation.js"defer></script>
+	<script src="./js/formHandler.js"defer></script>
+
+	<!--tag open graph-->
+	<meta property="og:locale" content="fr_FR">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="La chouette agence. Entreprise Web-design à Lyon.">
+	<meta property="og:url" content="https://emiliebolo.github.io/EmilieBolo_4_06032021/index.html">
+	<meta property="og:description" content="Créez votre site web grâce avec l'entreprise la chouette agence située à Lyon">
+	<meta property="og:site_name" content="La chouette agence. Entreprise Web-design à Lyon.">
+	<meta property="og:image" content="https://emiliebolo.github.io/EmilieBolo_4_06032021/img/miniature-card.jpg">
+	
+	<!--twitter-->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@Lachouetteagence">
+	<meta name="twitter:description" content="La chouette agence, entreprise de Web design à Lyon. Conseille et aide les entreprises à réaliser leur projet.">
+    <meta name="twitter:title" content="La chouette agence. Entreprise Web design à Lyon.">
+	<meta name="twitter:image" content="https://emiliebolo.github.io/EmilieBolo_4_06032021/img/miniature-card.jpg">
+	<meta name="twitter:image:alt" content="Image représentant La chouette agence">
+	
+
+    
+<!-- Analytics -->
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+   gtag('config', 'G-B38RVPTTVN');
+  </script>
+
+ 
+<!-- Analytics END -->
+    
+</head>
+
+<body>
+	<!-- Principal conteneur -->
+	<div class="page-container">
+	<!-- bloc-0 -->
+	<header class="bloc bgc-white l-bloc " id="bloc-0">
+		<div class="container bloc-sm">
+			<nav class="navbar row">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" title="La Chouette Agence - Entreprise de Webdesign à Lyon" height="40" /></a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a href="index.html" title="Accueil - La chouette agence">Accueil</a>
+						</li>
+						<li>
+							<a href="Contact.html" title="Formulaire de contact">Nous Contacter !</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- bloc-0 END -->
+	<!-- bloc-6 -->
+	<main class="bloc bg-repeat bgc-atomic-tangerine d-bloc" id="bloc-6">
+		<div class="container bloc-lg">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center hero-bloc-text contrast">
+						Parlons web design !
+					</h1>
+					<p class="text-center mg-lg white tight-width-whitespace contrast">
+						Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+						Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+					</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- bloc-6 END -->
+	<!-- bloc-7 -->
+	<div class="bloc bgc-white l-bloc" id="bloc-7">
+		<div class="container bloc-lg">
+			<div class="row">
+				<div class="col-sm-6">
+					<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<div class="form-group">
+							<label>
+								Nom
+								<input id="name" class="form-control" title="Entrez votre nom" required />
+							</label>
+						</div>
+						<div class="form-group">
+							<label>
+								Adresse email
+								<input id="email" class="form-control" type="email" title="Entrez votre email" required />
+							</label>
+						</div>
+						<div class="form-group">
+							<label>
+								Comment nous avez-vous connu ?
+								<input class="form-control" title="Comment nous avez-vous connu ?" required id="input_504" />
+							</label>
+						</div>
+						<div class="form-group">
+							<label>
+								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+								<textarea id="message" class="form-control" rows="4" cols="50" title="Détaillez-nous votre projet" required></textarea>
+							</label>
+						</div> 
+						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" title="Envoi du formulaire" type="submit">
+							Envoyer
+						</button>
+					</form>
+				</div>
+				<div class="col-sm-6">
+					<p>contact@lachouetteagence.com</p>
+					<p>2 place Sathonay 69001 Lyon</p>
+					<p>Ouvert de 9h à 18h, du lundi au vendredi</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- bloc-7 END -->
+	<!-- ScrollToTop Button -->
+	<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+	<!-- ScrollToTop Button END-->
+	<!-- Footer - bloc-8 -->
+	<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<div class="container bloc-sm">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="text-center contrast h2-style">
+						La chouette agence - Entreprise de webdesign basée à Lyon.
+					</h2>
+					<div class="row row-no-gutters social">
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://twitter.com/" title="twitter" target="_blank" rel="noreferrer noopener">
+									<span class="social-title">Twitter</span>
+								    <span class="fa fa-twitter icon-md"></span>
+							    </a>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="http://www.facebook.com/" title="facebook" target="_blank" rel="noreferrer noopener">
+									<span class="social-title">Facebook</span>
+								    <span class="fa fa-facebook icon-md"></span>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://dribble.com" title="dribble" target="_blank" rel="noreferrer noopener">
+									<span class="social-title">Dribble</span>
+								    <span class="fa fa-dribbble icon-md"></span>
+							    </a>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://www.instagram.com" title="instagram"target="_blank" rel="noreferrer noopener">
+									<span class="social-title">Instagram</span>
+								    <span class="fa fa-instagram icon-md"></span>
+							    </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer - bloc-8 END -->
+	</div>
+	<!-- Principal conteneur END -->
+	</body>
+	</html>
