@@ -726,8 +726,8 @@ h4 {
   
   
     .logo {
-    width: 214px;
-    height: 40px;
+    width: 130px;
+    height: 30px;
     }
   
     .navbar-toggle {
@@ -738,4 +738,13 @@ h4 {
     .nav-links:hover {
       color: rgba(255, 255, 255, 1);
     }
+  }
+  @media (min-width: 579px) and (max-width: 768px){
+    .main-nav li {
+        margin: 10px;
+        position: relative;
+        top: 10px;
+        left: 40px;
+      }
+
   }
