@@ -720,7 +720,7 @@ h4 {
     .main-nav li {
       margin: 30px;
       position: relative;
-      top: auto;
+      top: 10px;
       left: 290px;
     }
   
